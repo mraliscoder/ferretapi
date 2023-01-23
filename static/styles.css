@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: blueviolet;
+}
+
+html, body {
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 10px;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.element {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+pre {
+    background-color: #cecece;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+.ferret {
+    max-width: 100%;
+    margin-top: 10px;
+}
+.footer {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}

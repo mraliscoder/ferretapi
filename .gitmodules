@@ -1,0 +1,3 @@
+[submodule "ferret-images"]
+	path = ferret-images
+	url = https://github.com/dpkgsoft/ferret-images

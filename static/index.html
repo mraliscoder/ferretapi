@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferret API</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ferret API</h1>
+            <p>API для получения хорьков</p>
+        </div>
+        <div class="element">
+            <h3>Для чего?</h3>
+            <p>Изначально - для бота <a href="https://sculk.ru/">Sculk</a>, а именно для команды /хорёк. Но можно использовать и не только для этого!</p>
+        </div>
+        <div class="element">
+            <h3>Как получить картинку?</h3>
+            <p>HTTP GET запрос на /image</p>
+            <pre><code>GET https://ferretapi.ru/image</code></pre>
+        </div>
+        <div class="element">
+            <h3>А если в JSON?</h3>
+            <p>Относительную ссылку на картинку хорька можно получить через /json</p>
+            <pre><code>GET https://ferretapi.ru/json</code></pre>
+            <pre><code>{
+    "ferret": "/ferret-image/00000000-0000-4000-0000-000000000000.jpg"
+}</code></pre>
+            <p>Остается добавить <code>https://ferretapi.ru</code> в начало, чтобы получить картинку:</p>
+            <pre><code>https://ferretapi.ru/ferret-image/00000000-0000-4000-0000-000000000000.jpg</code></pre>
+        </div>
+        <div class="element">
+            <h3>А теперь держи хорька с нашего API:</h3>
+            <img src="/image" alt="Nice Ferret" class="ferret">
+        </div>
+        <div class="footer">
+            &copy; 2023 <a href="https://xorek.cloud/?from=5">XorekCloud</a>
+        </div>
+    </div>
+</body>
+</html>
